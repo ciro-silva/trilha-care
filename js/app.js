@@ -13,6 +13,6 @@ window.sr = ScrollReveal({reset: true})
 
 //GO PAGE THANKS
 
-function tabNavgation(){
+function GoToThanksPage(){
     window.location.href = "thanks.html";
 }
