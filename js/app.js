@@ -10,3 +10,9 @@ ScrollReveal().reveal('.testimonials-text', {delay: 700});
 ScrollReveal().reveal('.expert-left', {delay: 900});
 ScrollReveal().reveal('.expert-right', {delay: 1200});
 window.sr = ScrollReveal({reset: true})
+
+//GO PAGE TANKS
+
+function tabNavgation(){
+    window.location.href = "thanks.html";
+}
