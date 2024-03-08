@@ -12,7 +12,7 @@
 
 ## ✒️ - Layout
 ![TrilhaCare-LandingPage-Desing](./assets/img/landingpg.png)
-![TrilhaCare-LandingPage-Desing](./assets/img/desktop-thanks.png)
+![TrilhaCare-ThanksPage-Desing](./assets/img/desktop-thanks.png)
 
 ##  💻  - Preview
 👉 [Trilha Care](https://ciro-silva.github.io/trilha-care/)
