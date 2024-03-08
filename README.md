@@ -1,6 +1,6 @@
 # Landing Page - Trilha Care
 
-![TrilhaCare](./assets/img/trilha%20cover.png)
+![TrilhaCare](./assets/img/trilha-cover.png)
 Curso de Tratamento de Feridas 🎓
 
 ## índice
@@ -10,7 +10,7 @@ Curso de Tratamento de Feridas 🎓
 - <a href="#autores">Autores</a>
 
 ## ✒️ - Layout
-![TrilhaCare-LandingPage-Desing](./assets/img/trilha%20cover.png)
+![TrilhaCare-LandingPage-Desing](./assets/img/landingpg.png)
 
 ##  💻  - Preview
 👉 [Trilha Care](https://www.google.com.br/)
