@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --rose: #FF6766;
+    --green: #4C6172;
+    --green-secondary: #56746C;
+    --white: #fff;
+    --input-bg: #F6F6F6;
+    --input-border: 1px solid #c5c5c5;
+    --button-hover: #E4403F;
+    --button-shadow: 0 10px 20px -6px rgba(238, 103, 97, 0.3);
+}
+
+/*HERO--------------------------------------------*/
+.hero {
+    width: 100%;
+    height: fit-content;
+    background: var(--white);
+}
+
+.container-hero {
+    max-width: 1280px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero-left {
+    width: 50%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--green);
+    
+}
+
+.logo img {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.hero-left span {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.hero-left .title {
+    font-size: 3.3rem;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-left .desc-title {
+    font-size: 1.5rem;
+    
+}
+
+.form-aluno {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.form-aluno input {
+    padding: 12px 6px;
+    border-radius: 6px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+
+input:focus {
+    border: 1px solid var(--rose);
+}
+
+.hero-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-aluno button {
+    background: var(--rose);
+    padding: 12px 6px;
+    border: none;
+    border-radius: 6px;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--button-shadow);
+    transition: all 300ms ease-in-out;
+}
+
+.form-aluno button:hover {
+    background: var(--button-hover);
+}
+
+/* RESPONSIVO - HERO =======================*/
+@media screen and (max-width:900px) {
+    .container-hero {
+        width: 100%;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .hero-left {
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .hero-right {
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-right img {
+        width: 320px;
+    }
+    .hero-left .title {
+        text-align: center;
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+        margin-bottom: 16px;
+    }
+    .hero-left .desc-title {
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .hero-left span {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+}
+/*----------------------------------------------------*/
+
+/*DISCRIPTION-----------------------------------------*/
+
+.description {
+    width: 100%;
+    height: 700px;
+    background-color: var(--rose);
+}
+
+.container-description {
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.description-left {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.description-left img {
+    width: 640px;
+} 
+
+.description-right {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.description-title{
+    font-size: 2.6rem;
+    color: var(--white);
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+
+.description-desc {
+    color: var(--white);
+}
+
+.description-items {
+    display: flex;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-style: italic;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.item img {
+    width: 24px;
+}
+
+/* RESPONSIVO - DESCRIPTION =======================*/
+@media screen and (max-width:900px) {
+    .container-description {
+        width: 100%;
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-around;
+    }
+    .description-left {
+        display: none;
+    }
+    .description-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+    .description-title{
+        margin-top: 6rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-align: center;
+    }
+    .description-desc {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+}
+/*----------------------------------------------------*/
+
+/*TESTIMONIALS----------------------------------------*/
+.testimonials {
+    max-width: 100%;
+    height: 700px;
+    background: var(--white);
+}
+
+.container-testimonials{
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.testimonials-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.4rem;
+}
+
+.testimonials-text p{
+    font-size: 1.8rem;
+    color: var(--green);
+    text-align: center;
+}
+
+.testimonials-text h1{
+    font-size: 2.8rem;
+    color: var(--green);
+    text-align: center;
+}
+
+.testimonials-text #msg-mentora{
+    font-size: 1.4rem;
+    color: var(--green);
+    text-align: center;
+}
+
+.container-testimonials-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-testimonial {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+    background: linear-gradient(358.31deg, #fff -24.13%, hsla(0, 0%, 100%, 0) 338.58%), linear-gradient(89.84deg, rgba(230, 36, 174, .15) .34%, rgba(94, 58, 255, .15) 16.96%, rgba(10, 136, 255, .15) 34.66%, rgba(75, 191, 80, .15) 50.12%, rgba(137, 206, 0, .15) 66.22%, rgba(239, 183, 0, .15) 82%, rgba(246, 73, 0, .15) 99.9%);
+    border-radius: 6px;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.02), 0px 47px 47px rgba(0, 0, 0, 0.03), 0px 12px 26px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.04);
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.card-testimonial:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08), 0 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-testimonial p {
+    color: #4d4c6d;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.testimonial-avatar img{
+    width: 100px;
+}
+
+.testimonial-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.username {
+    color: #4d4c6d;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.user-occupation {
+    color: rgb(141, 140, 161);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* RESPONSIVO - TESTIMONIALS =======================*/
+@media screen and (max-width:900px) {
+    .testimonials {
+       margin-top: 100px;
+       margin-bottom: 120px;
+    }
+    .container-testimonials-cards {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .testimonials-text p{
+        font-size: 1.2rem;
+        color: var(--green);
+        text-align: center;
+    }
+    
+    .testimonials-text h1{
+        font-size: 2rem;
+        color: var(--green);
+        text-align: center;
+    }
+    
+    .testimonials-text #msg-mentora{
+        font-size: 1rem;
+        color: var(--green);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .card-testimonial {
+        width: 180px;
+    }
+    .testimonial-avatar img{
+        width: 60px;
+    }
+    .card-testimonial p {
+        font-size: 0.6rem;
+    }
+}
+
+/*----------------------------------------------------*/
+
+/*EXPERT----------------------------------------------*/
+.expert {
+    width: 100%;
+    height: 700px;
+    background: var(--green-secondary);
+}
+.container-expert {
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.expert-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.expert-left img {
+    width: 670px;
+    
+}
+
+.expert-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.logo-expert img {
+    width: 220px;
+}
+
+.expert-bio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    gap: 2rem;
+}
+
+.social img {
+    width: 26px;
+    transition: all 300ms ease-in-out;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+    
+}
+/* RESPONSIVO - EXPERT =======================*/
+@media screen and (max-width:952px) {
+    .expert {
+        height: fit-content;
+    }
+    .container-expert {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .expert-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 80px;
+        
+    }
+    .expert-left img {
+        width: 370px;
+        
+    }
+    .expert-bio {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+/*----------------------------------------------------*/

@@ -1,0 +1,81 @@
+:root {
+    --rose: #FF6766;
+    --green: #4C6172;
+    --green-secondary: #56746C;
+    --white: #fff;
+    --input-bg: #F6F6F6;
+    --input-border: 1px solid #c5c5c5;
+    --button-hover: #E4403F;
+    --button-shadow: 0 10px 20px -6px rgba(238, 103, 97, 0.3);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+}
+
+.container-hero-thanks {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -100px;
+}
+.container-hero-thanks img{
+    width: 140px;
+}
+
+#emoji {
+    width: 260px;
+}
+
+#title-thanks-page {
+    text-align: center;
+    color: var(--green);
+}
+
+#frase-thanks-page {
+    text-align: center;
+    color: var(--green);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+button {
+    width: 320px;
+    background: var(--rose);
+    padding: 10px 0px;
+    border: none;
+    border-radius: 6px;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--button-shadow);
+    transition: all 300ms ease-in-out;
+}
+
+button:hover {
+    background: var(--button-hover);
+}
+
+
+/* RESPONSIVO - HERO =======================*/
+@media screen and (max-width:800px) {
+    #frase-thanks-page {
+        font-size: 0.7rem;
+    }
+    #emoji {
+        width: 180px;
+    }
+    .container-hero-thanks img{
+        width: 100px;
+    }
+}
+/*----------------------------------------------------*/
