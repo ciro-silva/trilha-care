@@ -1,6 +1,6 @@
 # Landing Page - Trilha Care
 
-![TrilhaCare](./assets/img/Trilha%20Care%20-%20Cover.png)
+![TrilhaCare](./assets/img/trilha%20cover.png)
 Curso de Tratamento de Feridas 🎓
 
 ## índice
