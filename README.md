@@ -10,7 +10,7 @@ Curso de Tratamento de Feridas 🎓
 - <a href="#autores">Autores</a>
 
 ## ✒️ - Layout
-![TrilhaCare-LandingPage-Desing](./assets/img/Trilha%20Care%20-%20LandingPage.png)
+![TrilhaCare-LandingPage-Desing](./assets/img/trilha%20cover.png)
 
 ##  💻  - Preview
 👉 [Trilha Care](https://www.google.com.br/)
