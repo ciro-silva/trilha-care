@@ -11,7 +11,7 @@ ScrollReveal().reveal('.expert-left', {delay: 900});
 ScrollReveal().reveal('.expert-right', {delay: 1200});
 window.sr = ScrollReveal({reset: true})
 
-//GO PAGE TANKS
+//GO PAGE THANKS
 
 function tabNavgation(){
     window.location.href = "thanks.html";
