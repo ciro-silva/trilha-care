@@ -2,7 +2,7 @@
 
 ![TrilhaCare](./assets/img/trilha-cover.png)
 
-## Curso de Tratamento de Feridas 🎓
+### Curso de Tratamento de Feridas 🎓
 
 ## índice
 - <a href="#layout">Layout</a>
