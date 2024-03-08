@@ -31,6 +31,7 @@
 <i>Ciro Silva</i>
 
 ##  🎯  - Próximos Passos
+- [ ] Ao clicar no botão do formulário, o aluno será redirecionado para a página de obrigado(Thanks Page);
 - [ ] Criar Banco de dados para armazenar os dados cadastrais dos alunos;
 - [ ] Conectar o Front-end ao Backend para receber os alunos que solicitarem a vaga diretamente na landing Page;
 - [ ] Fazer a sessão TESTIMONIAIS em carrossel para dar mais dinamismo à página;
