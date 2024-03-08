@@ -14,7 +14,7 @@
 ![TrilhaCare-LandingPage-Desing](./assets/img/landingpg.png)
 
 ##  💻  - Preview
-👉 [Trilha Care](https://www.google.com.br/)
+👉 [Trilha Care]([https://www.google.com.br/](https://ciro-silva.github.io/trilha-care/)
 ##  🔧  - Tecnologias
 1. [Figma (<i>Design</i>)](https://www.figma.com/)
 2. [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
